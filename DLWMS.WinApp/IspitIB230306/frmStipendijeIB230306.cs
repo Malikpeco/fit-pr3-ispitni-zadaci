@@ -37,7 +37,7 @@ namespace DLWMS.WinApp.IspitIB230306
             stipendijegodine = db.StipendijeGodineIB230306.ToList();
 
             ucitajpodatke();
-
+            textBox2.ScrollBars = ScrollBars.Vertical;
         }
 
         private void ucitajpodatke()
